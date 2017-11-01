@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onNext(Response response) {
                         for(Hit h: response.getHits()){
-                            Log.d(TAG, "onNext: " + h.getRecipe().getLabel());
+                            //Log.d(TAG, "onNext: " + h.getRecipe().getLabel());
                             hitList.add(h);
                         }
                     }
